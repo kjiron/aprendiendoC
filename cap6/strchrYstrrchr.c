@@ -14,6 +14,7 @@ int main(int argc, char const *argv[])
 	if(lOcurrencia != NULL){
 		printf("La ultima ocurrencia al buscar  [%c] en [%s] fue [%s]\n", buscar,cadena,lOcurrencia);
 	}
-
+	// un buen uso para strrchr puede ser extraer la informacion del nombre de un archivo dada una direccion en el computador
+	// por ejemplo C:\Users\eak\myfile.txt y buscar el char de \ como ultima ocurrencia
 	return 0;
 }
